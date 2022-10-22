@@ -1,0 +1,52 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2022-10-18T11:21:36.258Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 59,
+      "createdAt": "2022-10-18T11:42:57.945Z"
+    },
+    {
+      "category": "despesa recorrente",
+      "description": "Aluguel da casa",
+      "price": 1200,
+      "type": "outcome",
+      "createdAt": "2022-10-18T14:54:22.054Z",
+      "id": 3
+    },
+    {
+      "category": "despesa recorrente",
+      "description": "conta de energia",
+      "price": 220,
+      "type": "outcome",
+      "createdAt": "2022-10-18T15:03:27.221Z",
+      "id": 4
+    },
+    {
+      "category": "receitas recorrentes",
+      "description": "pagamento do auxilio",
+      "price": 600,
+      "type": "income",
+      "createdAt": "2022-10-18T15:07:20.062Z",
+      "id": 5
+    },
+    {
+      "category": "compras",
+      "description": "ps5",
+      "price": 4500,
+      "type": "outcome",
+      "createdAt": "2022-10-18T15:08:14.191Z",
+      "id": 6
+    }
+  ]
+}
