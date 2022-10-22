@@ -153,7 +153,7 @@ app.post('/transactions', async (request, response) => {
 
 
 
-const PORT = 3333;
+const PORT = process.env.PORT;
 
 app.listen(PORT, () => {
   console.log('server on port:' + PORT)
