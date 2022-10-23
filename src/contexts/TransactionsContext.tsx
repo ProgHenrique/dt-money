@@ -85,8 +85,10 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
           return [response.data, ...state]
         }
       })
+
+      fetchTransactionsAll()
     },
-    [currentPage],
+    [currentPage, fetchTransactionsAll],
   )
 
   const transactionsByType = useCallback(
